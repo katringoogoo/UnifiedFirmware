@@ -148,7 +148,7 @@
   * If the probe is left of the nozzle the offset on X is NEGATIVE
   * If the probe is in front of the nozzle the offset on Y is NEGATIVE
   */
-  #define NOZZLE_TO_PROBE_OFFSET { -42, -6, 0 }
+  #define NOZZLE_TO_PROBE_OFFSET { -43, -6, 0 }
 #endif
 
 
@@ -241,15 +241,15 @@
 // PID BED TEMPERATURE CONTROL ---------------------
 // If you want PID Bed Temperature control enable the below line. You will need to tune it for your machine.
 // See the PID Bed setup guide here: https://support.th3dstudio.com/hc/guides/diy-guides/p-i-d-bed-calibration-guide/
-//#define ENABLE_PIDBED
+#define ENABLE_PIDBED
 
 // Z PROBE OFFSET WIZARD ---------------------------
 // Marlin has a Z Probe Offset Wizard now. If you want to enable this, uncomment the below line.
-//#define PROBE_OFFSET_WIZARD
+#define PROBE_OFFSET_WIZARD
 
 // FINE BABYSTEPPING -------------------------------
 // Enabling the below line will set the babystep resolution from 0.025mm to 0.010mm for finer control.
-//#define FINE_BABYSTEPPING
+#define FINE_BABYSTEPPING
 
 // LINEAR ADVANCE ----------------------------------
 // See here on how to use Linear Advance: http://marlinfw.org/docs/features/lin_advance.html
